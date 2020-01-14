@@ -7,3 +7,8 @@
 	browser = chrome
 [browser "chrome"]
 	path = C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe
+[alias]
+	c = commit -m
+	ca = commit -am
+	s = status
+	l = log
