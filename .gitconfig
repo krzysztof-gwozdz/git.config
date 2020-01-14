@@ -3,3 +3,7 @@
 	email = krzysztof.gwozdz@outlook.com
 [core]
 	editor = 'C:\\Program Files\\Notepad++\\notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+[web]
+	browser = chrome
+[browser "chrome"]
+	path = C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe
