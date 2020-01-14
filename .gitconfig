@@ -1,3 +1,5 @@
 [user]
 	name = Krzysztof Gwóźdź
 	email = krzysztof.gwozdz@outlook.com
+[core]
+	editor = 'C:\\Program Files\\Notepad++\\notepad++.exe' -multiInst -notabbar -nosession -noPlugin
