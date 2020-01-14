@@ -12,3 +12,4 @@
 	ca = commit -am
 	s = status
 	l = log
+	full-clean = clean -f -x -d
