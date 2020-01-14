@@ -15,3 +15,4 @@
 	full-clean = clean -f -x -d
 	graph = log --all --decorate --oneline --graph
 	first-commit = rev-list --max-parents=0 HEAD
+	amend = commit --amend
