@@ -21,3 +21,4 @@
 	graph = log --all --decorate --oneline --graph
 	first-commit = rev-list --max-parents=0 HEAD
 	amend = commit --amend
+	aliases = !git config -l | grep alias | cut -c 7-
