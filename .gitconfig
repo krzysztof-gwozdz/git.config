@@ -9,7 +9,7 @@
 	path = C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe
 [alias]
 	c = commit -m
-	ca = commit -am
+	ca = !git add . && git commit -m
 	s = status
 	l = log
 	full-clean = clean -f -x -d
