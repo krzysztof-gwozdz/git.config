@@ -9,13 +9,14 @@
 	path = C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe
 [alias]
 	#shortcuts
+	aa = add .
 	c = commit -m
 	ca = commit-all
 	s = status
 	l = log
 	
 	#complex
-	commit-all = !git add . && git commit -m
+	commit-all = !git aa && git c
 	full-clean = clean -f -x -d
 	graph = log --all --decorate --oneline --graph
 	first-commit = rev-list --max-parents=0 HEAD
